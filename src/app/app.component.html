@@ -1,6 +1,5 @@
-
 <mat-tab-group>
-  <mat-tab [label]="item" *ngFor="let item of liste">
+  <mat-tab [label]="item.title" *ngFor="let item of liste">
     <app-card
       title="item.title"
       subtitle="item.subtitle"
