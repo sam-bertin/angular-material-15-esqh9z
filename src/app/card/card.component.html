@@ -1,0 +1,12 @@
+<mat-card class="card">
+  <mat-card-title>{{ title }}</mat-card-title>
+  <mat-card-subtitle>{{ subtitle }}</mat-card-subtitle>
+  <img mat-card-image src="{{ imgSource }}" alt="image" />
+
+  <mat-card-content> {{ cardContent }} </mat-card-content>
+  <mat-card-actions>
+    <button mat-raised-button color="accent">{{ action1 }}</button>
+    <button mat-raised-button color="">{{ action2 }}</button>
+  </mat-card-actions>
+  <mat-card-footer>{{ cardFooter }}</mat-card-footer>
+</mat-card>
